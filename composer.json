@@ -1,0 +1,36 @@
+{
+    "name": "lumintech/laravel-feishu-robot",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "5.8.*|^6.0|^7.0|^8.0|^9.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LuminTech\\LaravelFeishuRobot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LuminTech\\LaravelFeishuRobot\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LuminTech\\LaravelFeishuRobot\\FeishuRobotServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Administrator",
+            "email": "gaoxu529@126.com"
+        }
+    ]
+}
