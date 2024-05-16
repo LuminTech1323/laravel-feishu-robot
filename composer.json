@@ -32,5 +32,6 @@
             "name": "Administrator",
             "email": "gaoxu529@126.com"
         }
-    ]
+    ],
+    "version": "1.0.0"
 }
